@@ -1,0 +1,6 @@
+#Ignore file named app1.py
+app1.py
+
+#Ignore folders named: '.vscode' , 'env' 
+env/
+.vscode/
