@@ -1,9 +1,8 @@
 from database import Database
-from models.post import Post
+from menu import Menu
 
 Database.initialize()
 
-posts = Post.from_blog('123')
+menu = Menu()
 
-for post in posts:
-    print(post)
+menu.run_menu()
